@@ -439,3 +439,130 @@ footer nav span {
   color: #697077;
   margin-left: 2rem;
 }
+
+@media only screen and (max-width: 1068px) {
+  header .desktop,
+  footer nav,
+  .right-thesis-container,
+  .left-thesis-container h3,
+  .left-thesis-container p,
+  .courses .container img,
+  .courses .container .course-box p,
+  .information .left-flex-container,
+  #pc-pic,
+  header h3,
+  header .logo {
+    display: none;
+  }
+  /* Mobile header style */
+  header .mobile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  /* Mobile banner style */
+  .banner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .banner img {
+    width: 100%;
+    align-items: center;
+    margin: 0 0;
+  }
+
+  .banner .right-side-text {
+    color: #898b8f;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .banner .right-side-text h1 {
+    margin: 32px 16px;
+  }
+
+  .banner .right-side-text p {
+    margin: 0px 16px;
+    font-size: 1.4rem;
+  }
+
+  .banner .right-side-text a {
+    margin: 24px 16px 32px 16px;
+    width: 92%;
+  }
+  /* Moblile information style */
+
+  .information .right-flex-container .flex-content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .information .right-flex-container {
+    width: 100%;
+  }
+
+  #mobile-pic {
+    display: block;
+    width: 95%;
+    margin: 16px;
+  }
+
+  .information .right-flex-container .side-text {
+    margin-left: 32px;
+  }
+
+  .information .right-flex-container .side-text h3 {
+    font-size: 2rem;
+  }
+  .information .right-flex-container .side-text p {
+    font-size: 1.5rem;
+  }
+  .information .right-flex-container .side-text a {
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+  }
+  /* Mobile courses style */
+
+  #courses {
+    background-color: white;
+  }
+
+  #courses h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    color: #404142;
+    margin-bottom: 16px;
+  }
+
+  .container .course-box {
+    background-color: #c3c8ce;
+    width: 100%;
+    justify-items: center;
+    margin: 0 0 8px 0;
+  }
+  .container .course-box .course-text {
+    margin: 16px 16px 24px 16px;
+  }
+
+  .container .course-box .course-text h3 {
+    align-items: center;
+    margin: 0px;
+    color: #636566;
+    font-size: 3rem;
+  }
+
+  /* Mobile thesis style */
+  .left-thesis-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1068px) {
+  .mobile {
+    display: none;
+  }
+}
